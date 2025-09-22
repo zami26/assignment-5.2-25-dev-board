@@ -36,6 +36,7 @@ function addToHistory(cardHeading) {
 
 
 document.getElementById("comp-btn-1").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -43,6 +44,7 @@ document.getElementById("comp-btn-1").addEventListener('click', function () {
 })
 
 document.getElementById("comp-btn-2").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -50,6 +52,7 @@ document.getElementById("comp-btn-2").addEventListener('click', function () {
 })
 
 document.getElementById("comp-btn-3").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -57,6 +60,7 @@ document.getElementById("comp-btn-3").addEventListener('click', function () {
 })
 
 document.getElementById("comp-btn-4").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -64,6 +68,7 @@ document.getElementById("comp-btn-4").addEventListener('click', function () {
 })
 
 document.getElementById("comp-btn-5").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -71,6 +76,7 @@ document.getElementById("comp-btn-5").addEventListener('click', function () {
 })
 
 document.getElementById("comp-btn-6").addEventListener('click', function () {
+    alert("You have completed a Task");
     increaseDecrease();
     this.setAttribute("disabled", "true");
 
@@ -95,3 +101,5 @@ const colors = ["lightblue", "lightgreen", "lightpink", "lavender", "beige", "or
       index = (index + 1) % colors.length;
       document.body.style.backgroundColor = colors[index];
     });
+
+    

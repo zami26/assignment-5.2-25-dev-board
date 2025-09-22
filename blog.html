@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>This is the Blog page..</h1>
+    <div class="navbar bg-base-100 shadow-lg">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl">
+                <img class="w-10" src="assets/logo.png" alt="">
+                Dev <span class="font-black">Board</span>
+            </a>
+        </div>
+        <div class="flex-none flex items-center">
+            
+     <a class="btn btn-primary" href="/index.html">Back to Home</a>
+
+        </div>
+    </div>
+
+     <h1 class="font-bold text-2xl text-center mt-10 mb-7">Blogs</h1>
+
+    <div class="mb-4 bg-white px-4 py-3">
+        <p class="font-semibold">Question-1: What are the different ways to select an element in the DOM?</p>
+        <hr style="border: 1px dashed rgb(206, 204, 204); margin-top: 7px;">
+        <p class="text-gray-500 ms-3">There are 5 different ways to select element in the Dom. <br>
+            They are: getElementById, getElementByClassName, getElementByTagName, QuerySelector, QuerySelectorAll</p>
+    </div>
+    <div class="mb-4 bg-white px-4 py-3">
+        <p class="font-semibold">What is the difference between innerHTML, innerText, and textContent ?</p>
+        <hr style="border: 1px dashed rgb(206, 204, 204); margin-top: 7px;">
+        <p class="text-gray-500">
+          innerHTML  Returns the HTML markup inside an element includes tags. <br>
+          innerText returns text but respects CSS (hidden text ignored) <br>
+          textContent returns all text regardless of style.
+
+        </p>
+    </div>
+    <div class="mb-4 bg-white px-4 py-3">
+        <p class="font-semibold">Question-3: What is event delegation in the DOM?</p>
+        <hr style="border: 1px dashed rgb(206, 204, 204); margin-top: 7px;">
+        <p class="text-gray-500"> 
+            Event delegation is a technique where you attach a single event listener to a parent element, and that listener handles events from its child elements using event bubbling.
+        </p>
+    </div>
+    <div class="mb-4 bg-white px-4 py-3">
+        <p class="font-semibold">Question-4: What is event bubbling in the DOM?</p>
+        <hr style="border: 1px dashed rgb(206, 204, 204); margin-top: 7px;">
+        <p class="text-gray-500"></p>
+    </div>
+    <div class="mb-4 bg-white px-4 py-3">
+        <p class="font-semibold">How do you create, add, and remove elements using JavaScript?</p>
+        <hr style="border: 1px dashed rgb(206, 204, 204); margin-top: 7px;">
+        <p class="text-gray-500"></p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/dc7e494e47.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

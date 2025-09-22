@@ -32,26 +32,26 @@
 
                 </div>
             </div>
-            
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar ms-4">
-                    <div class="w-10 rounded-full ">
-                        <img alt="Tailwind CSS Navbar component" id="change-bg" class="me-4" src="assets/theme-btn.png" />
-                    </div>
+
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar ms-4">
+                <div class="w-10 rounded-full ">
+                    <img alt="Tailwind CSS Navbar component" id="change-bg" class="me-4" src="assets/theme-btn.png" />
                 </div>
-               
-            
+            </div>
+
+
         </div>
     </div>
 
 
     <div class="">
 
-        <div class="flex">
+        <div class="lg:flex">
             <div class=" my-10 gap-4 bg-white pe-7">
-                <div class="grid grid-cols-4 gap-4 col-span-3 mt-6 ms-4">
-                    <div class=" common-clr py-8 flex items-center px-4 rounded-xl">
+                <div class="grid lg:grid-cols-4 md:grid-cols-4 gap-4 col-span-3 mt-6 ms-4">
+                    <div class=" common-clr py-8 flex items-center px-4 rounded-xl order-1">
 
-                        
+
                         <img src="assets/checkbox.png" class="w-7 me-2" alt="" srcset="">
                         <p>
                             <small>Task assigned </small> <br>
@@ -59,17 +59,21 @@
 
                         </p>
                     </div>
-                    <div class="col-span-2 bg-blue-400 py-8 flex items-center rounded-xl">
+                    <div class="col-span-2 bg-blue-400 py-8 flex items-center rounded-xl order-3 md:order-2">
                         <img src="assets/board.png" alt="" srcset="">
                         <p class="text-white font-bold "><a href="blog.html">Discover Something new Today!</a></p>
                     </div>
-                    <div class=" common-clr py-8 rounded-xl flex items-center">
+                    <div class=" common-clr py-8 rounded-xl flex items-center order-2 md:order-3">
                         <img class="ms-4" src="assets/calender.png" alt="">
-                        <p class="ms-2"> <small> <strong id="date"> 1 </strong> </small> </p>
+                        <p class="ms-2"> <small> <strong id="date"> </strong> </small> </p>
                     </div>
                 </div>
                 <hr style="border: 1px dashed rgb(236, 233, 233); margin-top: 17px;">
-                <div class="grid grid-cols-3 gap-6 col-span-3 my-8">
+
+
+
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-3 gap-6 col-span-3 my-8">
                     <div class="card col-span-1 common-clr card-md shadow-sm ms-4">
                         <div class="card-body">
                             <p> <span class="bg-white  px-3 rounded-box">Shop Ease</span> </p>
@@ -126,7 +130,7 @@
 
 
                 </div>
-                <div class="grid grid-cols-3 gap-6 col-span-3 my-2">
+                <div class="grid lg:grid-cols-3 md:grid-cols-3 gap-6 col-span-3 my-2">
                     <div class="card col-span-1 common-clr card-md shadow-sm ms-4">
                         <div class="card-body">
                             <p class=""> <span class="bg-white  px-3 rounded-box">Programming Hero</span> </p>
@@ -188,19 +192,19 @@
 
 
 
-            <div class="bg-white-100 ms-6  w-140 bg-white my-10 rounded-box">
-                <div class="mt-10 flex  justify-center gap-3">
+            <div class="bg-white-100 lg:ms-6 lg:w-140 bg-white my-10 rounded-box">
+                <div class="mt-10 flex  justify-center gap-3 lg:pt-0 pt-5 ">
                     <img src="assets/activity.png" alt="">
                     <h1>Activity Log</h1>
                 </div>
-                <div class="mx-21">
+                <div class="flex justify-center">
                     <button class="btn btn-primary mt-3" id="clear-history">Clear history</button>
                 </div>
                 <hr style="border: 1px dashed rgb(236, 233, 233); margin-top: 13px;">
 
-              <div id="history" class="mt-5 ms-4">
-                
-              </div>
+                <div id="history" class="mt-5 ms-4">
+
+                </div>
 
             </div>
         </div>
